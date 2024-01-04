@@ -23,6 +23,10 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
+#quoting:
+#  database: true
+#  schema: true
+#  identifier: true
 
 # Configuring models
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
@@ -34,4 +38,8 @@ models:
   pe_metrics:
     # Config indicated by + and applies to all files under models/example/
     example:
-      +materialized: view
+      +materialized: table
+    pe_metrics:
+      +materialized: table
+      +quoting:
+        identifier: false
