@@ -8,6 +8,9 @@ sources:
       - name: 'SFDC_Accounts_Partners'
         quoting:
             identifier: true
+      - name: 'SFDC_Contacts_Partners'
+        quoting:
+            identifier: true
         #loaded_at_field: updated_date
         #freshness:
         #  warn_after:
