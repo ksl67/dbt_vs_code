@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: sfdc
+    database: DEV_DB
+    schema: PARTNERSUCCESS
+    tables:
+      - name: 'SFDC_Accounts_Partners'
+        quoting:
+            identifier: true
+      - name: 'SFDC_Contacts_Partners'
+        quoting:
+            identifier: true
+      - name: 'SFDC_TechnicalWorkshopAttendees'
+        quoting:
+            identifier: true
+      - name: 'SFDC_TechnicalWorkshops'
+        quoting:
+            identifier: true                       
+      - name: 'partner_cases'
+        quoting:
+            identifier: true
+      - name: 'PartnerOpps_raw'
+        quoting:
+            identifier: true                            
+        #loaded_at_field: updated_date
+        #freshness:
+        #  warn_after:
+        #    count: 1
+        #    period: day
+        #  error_after:
+        #    count: 5
+        #    period: day
