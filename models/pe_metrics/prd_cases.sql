@@ -62,7 +62,6 @@ SELECT
   "cases"."Mission_Critical_Support_Customer__c" AS "Mission_Critical_Support_Customer__c", 
   "cases"."PagerDuty_Email_for_Escalation__c" AS "PagerDuty_Email_for_Escalation__c", 
   "cases"."Classification_Case__c" AS "Classification_Case__c", 
-  "cases"."Account_Tier__c" AS "Account_Tier__c", 
   "cases"."New_Case_Time_since_opened__c" AS "New_Case_Time_since_opened__c", 
   "cases"."Post_First_Made_Date_Time__c" AS "Post_First_Made_Date_Time__c", 
   "cases"."First_Response_Time_Number_del__c" AS "First_Response_Time_Number_del__c", 
