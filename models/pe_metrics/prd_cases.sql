@@ -31,7 +31,6 @@ SELECT
   "cases"."SLA_Update_Frequency__c" AS "SLA_Update_Frequency__c", 
   "cases"."Case_Resolution__c" AS "Case_Resolution__c", 
   "cases"."Case_open_days__c" AS "Case_open_days__c", 
-  "cases"."Tier_1_Account__c" AS "Tier_1_Account__c", 
   "cases"."Date_Time_Opened__c" AS "Date_Time_Opened__c", 
   "cases"."Email_First_Sent_Date_Time__c" AS "Email_First_Sent_Date_Time__c", 
   "cases"."First_Response_Time__c" AS "First_Response_Time__c", 
